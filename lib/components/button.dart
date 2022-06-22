@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
 class Button extends StatelessWidget {
-  static const DARK = Color.fromRGBO(82, 82, 82, 1);
-  static const DEFAULT = Color.fromRGBO(112, 112, 112, 1);
-  static const OPERATION = Color.fromRGBO(250, 158, 13, 1);
+  static const DARK = Color.fromARGB(255, 155, 155, 155);
+  static const DEFAULT = Color.fromARGB(255, 255, 255, 255);
+  static const OPERATION = Color.fromARGB(255, 226, 145, 39);
 
   final String text;
   final bool big;
@@ -40,9 +40,9 @@ class Button extends StatelessWidget {
         child: Text(
           text,
           style: TextStyle(
-            color: Colors.white,
-            fontSize: 32,
-            fontWeight: FontWeight.w200,
+            color: Colors.black87,
+            fontSize: 30,
+            fontWeight: FontWeight.w500,
           ),
         ),
         onPressed: () => cb(text),

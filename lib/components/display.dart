@@ -10,7 +10,7 @@ class Display extends StatelessWidget {
     return Expanded(
       flex: 1,
       child: Container(
-        color: Color.fromRGBO(48, 48, 48, 1),
+        color: Color.fromARGB(255, 255, 255, 255),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.end,
           crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -27,7 +27,7 @@ class Display extends StatelessWidget {
                   fontWeight: FontWeight.w100,
                   decoration: TextDecoration.none,
                   fontSize: 80,
-                  color: Colors.white,
+                  color: Color.fromARGB(255, 37, 37, 37),
                 ),
               ),
             ),
